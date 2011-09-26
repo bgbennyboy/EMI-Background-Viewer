@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>EMI Background Viewer ReadMe</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<style type="text/css">
+	<!--
+	.style7 {font-family: Verdana, Arial, Helvetica, sans-serif}
+	.style10 {font-size: large}
+	.style12 {font-size: small}
+	-->
+	</style>
+</head>
+
+<body>
+	<span class="style7">
+		<span class="style10">
+			EMI Background Viewer<br>
+			By Bgbennyboy<br>
+			Version 1.2<br>
+			<a href="http://quick.mixnmojo.com">Http://quick.mixnmojo.com</a><br><br>
+		</span>
+	</span>
+
+	<p class="style7"><strong><em>New in this version:</em></strong></p>
+	<ul>
+		<li class="style7">Fixed - bug where images wouldnt display on Vista/Windows 7.</li><br>
+		<li class="style7">Changed - made image decoding much faster.</li><br>
+		<li class="style7">Changed - now saves as png rather than jpeg</li><br>
+		<li class="style7">Changed - image scaling. The image now scales up as the application window is resized. Images are still saved as their original size though.</li><br>
+		<li class="style7">Added - the EMI folder is now auto-detected when you click 'open' so you shouldnt have to browse for the folder every time.</li><br>
+		<li class="style7">Added - different icon that looks better at larger sizes.</li><br>
+	</ul>
+
+	
+	<p class="style7"><strong><em>What is EMI Background Viewer ?:</em></strong><br>
+		A program that enables you to view and save the room backgrounds from Monkey Island 4 (Escape From Monkey Island). It works with the backgrounds from both the PC and PS2 version of EMI.
+	</p>
+	
+	<p class="style7"><em><strong>What do I need to use this?:</strong></em><br> 
+		Either the PC or PS2 version of the game. Both the retail and demo versions are supported.
+	</p>
+	
+	
+	<p class="style7"><em><strong>How to use it:</strong></em><br></p>
+	<ul>
+		<li class="style7">Click <i><u>Open</i></u> browse to the EMI folder on your hard drive or to your EMI cd. If the game is installed then the correct folder will be automatically be selected.</li><br>
+		<li class="style7">Select one of the .m4b files and click open. Any backgrounds that are inside the file are now listed. Note that some .m4b files dont contain any backgrounds.</li><br>
+		<li class="style7">Click <i><u>Save File</i></u> to save a background. you can save as either a png or bitmap, png is the default.</li><br>
+		<li class="style7">Click <i><u>Save All Files</i></u> to save all backgrounds as png or bitmap files.</li><br>
+	</ul>
+
+
+	<p class="style7">
+		<em><strong>The "debug" button:</strong></em>
+		<br>	
+		Clicking this shows the extra information included in the .til images.  Note that any images you save will contain all the extra debug graphics while this is turned on.<br><br>
+		The debug stuff wont be of much interest to most people. About the only thing of note is the "Randy sucks" easter egg in the debug graphics for one of the Scumm Bar images. As far as I know the extra graphics are masking data, I dont know the format of it yet. Also the viewer only shows 6 tiles at once (each image is made up of a number of tiles), so if the image is made up of more than that then the remaining bit will be drawn offscreen, stuff in a 7th tile is only ever debug stuff anyway so this isnt really an issue.<br><br>
+	</p>	
+	
+	<p class="style7"><em><strong>Additional:</strong></em><br> 
+		For those experimenting with EMI hacking, creating their own resource and .til files - the viewer will view both g-zipped and non-g-zipped tiles in either the PC or PS2 formats. It doesnt check the content of files though, only those files that have a .til extension within the resource file are listed.
+	</p>	
+	
+
+	<p class="style7"><em><strong>Credits and thanks:</strong></em>
+	<ul>
+		<li class="style7">Benjamin Haisch (John_Doe)<br>
+			For his .til specs, without which I wouldnt be able to decode .til's.
+Everyone would be well advised to check out his great tools like the <a href="http://gamefileformats.netfirms.com">EMI Viewer and EMI Mesh viewer</a></li><br>
+			
+		<li class="style7">Jimmi Thøgersen (Serge`)<br>
+			for all his help over time.</li><br>
+	</ul>
+	</p>
+	
+	<p class="style7"><em><strong>Support:</strong></em>
+		<br>
+		<a href="http://quick.mixnmojo.com/contact">Contact me</a>.
+		<br><br>
+		All my software is completely free. If you find this program useful please consider making a donation. This can be done on my <a href="http://quick.mixnmojo.com">website.</a>
+	</p>
+	
+	<br>
+	<p class="style7 style12">bgbennyboy 07/08/10 </p>
+</body>
+</html>
